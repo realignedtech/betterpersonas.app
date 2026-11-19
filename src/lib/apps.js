@@ -1,0 +1,38 @@
+export const realignedApps = [
+	{
+		name: 'Advanced Story Maps for Jira',
+		icon: '/smProIcon.svg',
+		url: 'https://storymapping.app/showcase/advanced',
+		description: 'Advanced roadmaps and story maps'
+	},
+	{
+		name: 'Story Maps for Jira',
+		icon: '/smFreeIcon.svg',
+		url: 'https://storymapping.app/free-app',
+		description: 'Focused story mapping in Jira'
+	},
+	{
+		name: 'Customer Actions for Jira',
+		icon: '/apps/customer-actions.png',
+		url: 'https://customeractions.app',
+		description: 'Interactive Jira customer portals'
+	},
+	{
+		name: 'Journey Mapping for Jira',
+		icon: '/apps/journey-mapping.png',
+		url: 'https://marketplace.atlassian.com/apps/1223654/journey-mapping-for-jira',
+		description: 'Customer journeys connected to Jira'
+	},
+	{
+		name: 'Personas for Jira',
+		icon: '/PersonaAppIcon.svg',
+		url: '/',
+		description: 'Create user personas in Jira'
+	},
+	{
+		name: 'Denkplan Portfolio Maps for Jira',
+		icon: '/apps/denkplan.png',
+		url: 'https://portfoliomapping.app',
+		description: 'Portfolio mapping for Jira'
+	}
+];

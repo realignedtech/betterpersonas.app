@@ -1,0 +1,17 @@
+[Unit]
+Description=Personas for Jira static production site
+Wants=network-online.target
+After=network-online.target
+
+[Container]
+Image=localhost/betterpersonas-next:1
+ContainerName=betterpersonas-next
+Network=windshift.network
+LogDriver=journald
+
+[Service]
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target default.target
