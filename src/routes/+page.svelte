@@ -4,7 +4,7 @@
 	import { softwareApplicationSchema } from '$lib/seo/schema.js';
 
 	const MARKETPLACE_LINK = 'https://marketplace.atlassian.com/apps/1225680/personas-for-jira';
-	const HEAD_TITLE = 'Personas for Jira - Keep Personas Beside Your Jira Work';
+	const HEAD_TITLE = 'Personas for Jira - See the Customer Behind Every Issue';
 
 	// Stated in machine-readable form so search engines and AI systems attribute
 	// the product to the right developer. Mirrors the Organization node on realigned.io.
@@ -12,7 +12,7 @@
 		softwareApplicationSchema({
 			name: 'Personas for Jira',
 			description:
-				'Manage persona profiles directly in Jira: build profiles with custom images and fields, link them to the issues they care about, and keep customer context beside the work.',
+				'Manage persona profiles directly in Jira: build profiles with custom images and fields, link them to the issues they describe, and keep customer context where the work happens.',
 			url: 'https://betterpersonas.app/',
 			image: 'https://betterpersonas.app/realignedOG.png',
 			operatingSystem: 'Atlassian Jira',
@@ -46,7 +46,7 @@
 
 <SiteShell
 	headTitle={HEAD_TITLE}
-	description="Manage your customer personas directly in Jira: build persona profiles, link them to the issues they care about, and keep customer context beside the work."
+	description="Manage customer personas directly in Jira: build profiles, link them to the issues they describe, and keep customer context where the work happens."
 	marketplaceLink={MARKETPLACE_LINK}
 >
 	<main class="bg-[var(--bg-base)] text-[var(--text-primary)]">
@@ -60,10 +60,10 @@
 						<p class="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-100/80">Personas for Jira</p>
 					</div>
 					<h1 id="hero-title" class="text-[clamp(40px,6vw,68px)] font-bold leading-[1.04] tracking-tight text-white">
-						Keep your customer personas beside the Jira work they describe.
+						See the customer behind every Jira issue.
 					</h1>
 					<p class="mx-auto mt-6 max-w-3xl text-xl leading-relaxed text-white/85 sm:text-2xl">
-						Build persona profiles directly in Jira, link them to the issues they care about, and give your team the customer context behind every requirement.
+						Build persona profiles in Jira, link them to the issues they describe, and keep customer context where the work happens.
 					</p>
 					<div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
 						<a href={MARKETPLACE_LINK} target="_blank" rel="noreferrer" data-umami-event="marketplace_click" data-umami-event-product="personas" data-umami-event-listing-id="1225680" data-umami-event-intent="trial" data-umami-event-source-page="/" data-umami-event-placement="homepage_hero" class="realigned-primary-button text-base">Start a free trial</a>
@@ -102,8 +102,8 @@
 			<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 				<div class="mx-auto max-w-3xl text-center">
 					<p class="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-[var(--text-muted)]">Customer context where the work happens</p>
-					<h2 id="capabilities-title" class="text-3xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-4xl">Deliver value with a customer-centric backlog.</h2>
-					<p class="mt-5 text-lg leading-relaxed text-[var(--text-secondary)]">Keep persona profiles in Jira, connect them to real issues, and help the whole team understand who the work is for.</p>
+					<h2 id="capabilities-title" class="text-3xl font-semibold tracking-tight text-[var(--text-primary)] sm:text-4xl">Make the backlog about people, not tickets.</h2>
+					<p class="mt-5 text-lg leading-relaxed text-[var(--text-secondary)]">Keep persona profiles in Jira, connect them to the issues they describe, and help everyone plan with the customer in mind.</p>
 				</div>
 				<div class="mt-14 grid gap-5 md:grid-cols-3">
 					{#each capabilities as capability}
